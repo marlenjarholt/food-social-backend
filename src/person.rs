@@ -57,34 +57,34 @@ impl Person {
 fn db_persons() -> Vec<Person> {
     let follower: Follower = Follower::new(
         "b55163d0-7dc6-4032-989d-e21788951986".to_owned(),
-        "marly".to_owned(),
-        "marly.marlen@gmail.com".to_owned(),
-        "Marlen".to_owned()
+        "grr".to_owned(),
+        "grr.omg@gmail.com".to_owned(),
+        "omg".to_owned()
     );
 
     let follower2: Follower = Follower::new(
         "1296c0a9-42c5-4f7c-bdf3-1c889566f551".to_owned(),
-        "fonnes".to_owned(),
-        "mrsimenfonnes@gmail.com".to_owned(),
-        "Simen".to_owned()
+        "woowwowo".to_owned(),
+        "lol@gmail.com".to_owned(),
+        "woow".to_owned()
     );
 
     vec![
         Person::new(
             "b55163d0-7dc6-4032-989d-e21788951986".to_owned(),
-            "marly".to_owned(),
-            "marly.marlen@gmail.com".to_owned(),
+            "grr".to_owned(),
+            "grr.omg@gmail.com".to_owned(),
             vec![follower],
             vec![follower2],
-            "Marlen".to_owned()
+            "omg".to_owned()
         ),
         Person::new(
             "1296c0a9-42c5-4f7c-bdf3-1c889566f551".to_owned(),
-            "fonnes".to_owned(),
-            "mrsimenfonnes@gmail.com".to_owned(),
+            "woowwowo".to_owned(),
+            "lol@gmail.com".to_owned(),
             vec![],
             vec![],
-            "Simen".to_owned()
+            "woow".to_owned()
         ),
     ]
 }
