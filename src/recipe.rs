@@ -53,7 +53,18 @@ fn db_recipes() -> Vec<SmallRecipe> {
             "Suppe".to_owned(),
             "tomatoImage".to_owned(),
             "#F4D0E9".to_owned(),
-        )
+        ),
+        SmallRecipe::new(
+            "2".to_owned(),
+            "Vegetar pizza".to_owned(),
+            "40 minutter".to_owned(),
+            6,
+            10,
+            "justMarlen".to_owned(),
+            "Italiensk".to_owned(),
+            "pizzaImage".to_owned(),
+            "#F4EDD0".to_owned(),
+        ),
     ]
 }
 
